@@ -18,5 +18,10 @@ namespace MyComponents
         {
             Response.Redirect("LoginPage.aspx");
         }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("HomePage.aspx/?username=jj");
+        }
     }
 }

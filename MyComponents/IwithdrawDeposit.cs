@@ -4,10 +4,12 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
+using System.Xml.Linq;
+using System.Xml.XPath;
+using System.IO;
 
 namespace MyComponents
 {
-    // NOTE: You can use the "Rename" command on the "Refactor" menu to change the interface name "IwithdrawDeposit" in both code and config file together.
     [ServiceContract]
     public interface IwithdrawDeposit
     {

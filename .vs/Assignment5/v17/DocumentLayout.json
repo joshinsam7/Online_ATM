@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\sshar238\\Desktop\\Assignment_5\\Online_ATM\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|c:\\users\\sshar238\\desktop\\assignment_5\\online_atm\\mycomponents\\withdrawdeposit.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|solutionrelative:mycomponents\\withdrawdeposit.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -61,6 +62,78 @@
     {
       "AbsoluteMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|C:\\Users\\sshar238\\Desktop\\Assignment_5\\Online_ATM\\mycomponents\\iuserinfostorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|solutionrelative:mycomponents\\iuserinfostorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|C:\\Users\\jbsam\\Desktop\\Online_ATM\\mycomponents\\withdraw_depositui.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|solutionrelative:mycomponents\\withdraw_depositui.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|c:\\users\\jbsam\\desktop\\online_atm\\mycomponents\\withdrawdeposit.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|solutionrelative:mycomponents\\withdrawdeposit.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|C:\\Users\\jbsam\\Desktop\\Online_ATM\\mycomponents\\withdraw_depositui.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|solutionrelative:mycomponents\\withdraw_depositui.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|C:\\Users\\jbsam\\Desktop\\Online_ATM\\mycomponents\\homepage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|solutionrelative:mycomponents\\homepage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|c:\\users\\jbsam\\desktop\\online_atm\\mycomponents\\homepage.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|solutionrelative:mycomponents\\homepage.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|C:\\Users\\jbsam\\Desktop\\Online_ATM\\mycomponents\\logincontrol.ascx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|solutionrelative:mycomponents\\logincontrol.ascx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|C:\\Users\\jbsam\\Desktop\\Online_ATM\\mycomponents\\iuserinfostorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|solutionrelative:mycomponents\\iuserinfostorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|c:\\users\\jbsam\\desktop\\online_atm\\mycomponents\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|solutionrelative:mycomponents\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|c:\\users\\jbsam\\desktop\\online_atm\\mycomponents\\defaultpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|solutionrelative:mycomponents\\defaultpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|c:\\users\\jbsam\\desktop\\online_atm\\mycomponents\\createuserpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|solutionrelative:mycomponents\\createuserpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|c:\\users\\jbsam\\desktop\\online_atm\\mycomponents\\createuserpage.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|solutionrelative:mycomponents\\createuserpage.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|c:\\users\\jbsam\\desktop\\online_atm\\mycomponents\\createuserpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|solutionrelative:mycomponents\\createuserpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|C:\\Users\\jbsam\\Desktop\\Online_ATM\\mycomponents\\createusercontrol.ascx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|solutionrelative:mycomponents\\createusercontrol.ascx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|C:\\Users\\jbsam\\Desktop\\Online_ATM\\mycomponents\\createusercontrol.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
+      "RelativeMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|solutionrelative:mycomponents\\createusercontrol.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|c:\\users\\jbsam\\desktop\\online_atm\\mycomponents\\createusercontrol.ascx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|solutionrelative:mycomponents\\createusercontrol.ascx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|c:\\users\\jbsam\\desktop\\online_atm\\mycomponents\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|solutionrelative:mycomponents\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|c:\\users\\jbsam\\desktop\\online_atm\\mycomponents\\transactionhistory.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|solutionrelative:mycomponents\\transactionhistory.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|c:\\users\\jbsam\\desktop\\online_atm\\mycomponents\\iwithdrawdeposit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|solutionrelative:mycomponents\\iwithdrawdeposit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> 0ee90e89504ba79db06996e86565d962f0b70536
     },
     {
       "AbsoluteMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|C:\\Users\\sshar238\\Desktop\\Assignment_5\\Online_ATM\\mycomponents\\withdraw_depositui.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -71,12 +144,20 @@
       "RelativeMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|solutionrelative:mycomponents\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|C:\\Users\\sshar238\\Desktop\\Assignment_5\\Online_ATM\\mycomponents\\service.svc||{FB9167C9-D3B8-4EDA-8083-9AF6B6F6DA62}",
       "RelativeMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|solutionrelative:mycomponents\\service.svc||{FB9167C9-D3B8-4EDA-8083-9AF6B6F6DA62}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|C:\\Users\\sshar238\\Desktop\\Assignment_5\\Online_ATM\\mycomponents\\defaultpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
+      "AbsoluteMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|C:\\Users\\jbsam\\Desktop\\Online_ATM\\mycomponents\\defaultpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> 0ee90e89504ba79db06996e86565d962f0b70536
       "RelativeMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|solutionrelative:mycomponents\\defaultpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|C:\\Users\\jbsam\\Desktop\\Online_ATM\\mycomponents\\service.svc||{FB9167C9-D3B8-4EDA-8083-9AF6B6F6DA62}",
+      "RelativeMoniker": "D:0:0:{4D08FC8A-0CD6-4F3F-A863-9738953180D8}|MyComponents\\MyComponents.csproj|solutionrelative:mycomponents\\service.svc||{FB9167C9-D3B8-4EDA-8083-9AF6B6F6DA62}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,6 +167,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 7,
           "Children": [
             {
@@ -227,12 +309,26 @@
               "ToolTip": "C:\\Users\\sshar238\\Desktop\\Assignment_5\\Online_ATM\\MyComponents\\HomePage.aspx.cs",
               "RelativeToolTip": "MyComponents\\HomePage.aspx.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAArAAAAAAAAAA==",
+=======
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomePage.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\jbsam\\Desktop\\Online_ATM\\MyComponents\\HomePage.aspx.designer.cs",
+              "RelativeDocumentMoniker": "MyComponents\\HomePage.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\jbsam\\Desktop\\Online_ATM\\MyComponents\\HomePage.aspx.designer.cs",
+              "RelativeToolTip": "MyComponents\\HomePage.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+>>>>>>> 0ee90e89504ba79db06996e86565d962f0b70536
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T03:42:38.063Z",
+              "WhenOpened": "2025-04-20T05:55:09.174Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 11,
               "Title": "CreateUserControl.ascx.cs",
               "DocumentMoniker": "C:\\Users\\sshar238\\Desktop\\Assignment_5\\Online_ATM\\MyComponents\\CreateUserControl.ascx.cs",
@@ -240,12 +336,48 @@
               "ToolTip": "C:\\Users\\sshar238\\Desktop\\Assignment_5\\Online_ATM\\MyComponents\\CreateUserControl.ascx.cs",
               "RelativeToolTip": "MyComponents\\CreateUserControl.ascx.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAANAAAAAAAAAA==",
+=======
+              "DocumentIndex": 14,
+              "Title": "CreateUserControl.ascx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\jbsam\\Desktop\\Online_ATM\\MyComponents\\CreateUserControl.ascx.designer.cs",
+              "RelativeDocumentMoniker": "MyComponents\\CreateUserControl.ascx.designer.cs",
+              "ToolTip": "C:\\Users\\jbsam\\Desktop\\Online_ATM\\MyComponents\\CreateUserControl.ascx.designer.cs",
+              "RelativeToolTip": "MyComponents\\CreateUserControl.ascx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+>>>>>>> 0ee90e89504ba79db06996e86565d962f0b70536
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T03:37:00.485Z",
+              "WhenOpened": "2025-04-20T05:54:59.858Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DefaultPage.aspx",
+              "DocumentMoniker": "C:\\Users\\jbsam\\Desktop\\Online_ATM\\MyComponents\\DefaultPage.aspx",
+              "RelativeDocumentMoniker": "MyComponents\\DefaultPage.aspx",
+              "ToolTip": "C:\\Users\\jbsam\\Desktop\\Online_ATM\\MyComponents\\DefaultPage.aspx",
+              "RelativeToolTip": "MyComponents\\DefaultPage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-20T05:11:12.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IwithdrawDeposit.cs",
+              "DocumentMoniker": "C:\\Users\\jbsam\\Desktop\\Online_ATM\\MyComponents\\IwithdrawDeposit.cs",
+              "RelativeDocumentMoniker": "MyComponents\\IwithdrawDeposit.cs",
+              "ToolTip": "C:\\Users\\jbsam\\Desktop\\Online_ATM\\MyComponents\\IwithdrawDeposit.cs",
+              "RelativeToolTip": "MyComponents\\IwithdrawDeposit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T04:23:44.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 12,
               "Title": "CreateUserControl.ascx",
               "DocumentMoniker": "C:\\Users\\sshar238\\Desktop\\Assignment_5\\Online_ATM\\MyComponents\\CreateUserControl.ascx",
@@ -260,19 +392,65 @@
             {
               "$type": "Document",
               "DocumentIndex": 14,
+=======
+              "DocumentIndex": 6,
+>>>>>>> 0ee90e89504ba79db06996e86565d962f0b70536
               "Title": "IUserInfoStorage.cs",
               "DocumentMoniker": "C:\\Users\\sshar238\\Desktop\\Assignment_5\\Online_ATM\\MyComponents\\IUserInfoStorage.cs",
               "RelativeDocumentMoniker": "MyComponents\\IUserInfoStorage.cs",
               "ToolTip": "C:\\Users\\sshar238\\Desktop\\Assignment_5\\Online_ATM\\MyComponents\\IUserInfoStorage.cs",
               "RelativeToolTip": "MyComponents\\IUserInfoStorage.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAkwF0AAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-20T03:36:46.594Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 13,
+=======
+              "DocumentIndex": 5,
+              "Title": "LoginControl.ascx.cs",
+              "DocumentMoniker": "C:\\Users\\jbsam\\Desktop\\Online_ATM\\MyComponents\\LoginControl.ascx.cs",
+              "RelativeDocumentMoniker": "MyComponents\\LoginControl.ascx.cs",
+              "ToolTip": "C:\\Users\\jbsam\\Desktop\\Online_ATM\\MyComponents\\LoginControl.ascx.cs",
+              "RelativeToolTip": "MyComponents\\LoginControl.ascx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T03:51:35.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\jbsam\\Desktop\\Online_ATM\\MyComponents\\Global.asax.cs",
+              "RelativeDocumentMoniker": "MyComponents\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\jbsam\\Desktop\\Online_ATM\\MyComponents\\Global.asax.cs",
+              "RelativeToolTip": "MyComponents\\Global.asax.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T05:41:40.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomePage.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\jbsam\\Desktop\\Online_ATM\\MyComponents\\HomePage.aspx.cs",
+              "RelativeDocumentMoniker": "MyComponents\\HomePage.aspx.cs",
+              "ToolTip": "C:\\Users\\jbsam\\Desktop\\Online_ATM\\MyComponents\\HomePage.aspx.cs",
+              "RelativeToolTip": "MyComponents\\HomePage.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T03:42:38.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+>>>>>>> 0ee90e89504ba79db06996e86565d962f0b70536
               "Title": "Withdraw_DepositUI.aspx",
               "DocumentMoniker": "C:\\Users\\sshar238\\Desktop\\Assignment_5\\Online_ATM\\MyComponents\\Withdraw_DepositUI.aspx",
               "RelativeDocumentMoniker": "MyComponents\\Withdraw_DepositUI.aspx",
@@ -285,20 +463,132 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 15,
+=======
+              "DocumentIndex": 0,
+>>>>>>> 0ee90e89504ba79db06996e86565d962f0b70536
               "Title": "Withdraw_DepositUI.aspx.cs",
               "DocumentMoniker": "C:\\Users\\sshar238\\Desktop\\Assignment_5\\Online_ATM\\MyComponents\\Withdraw_DepositUI.aspx.cs",
               "RelativeDocumentMoniker": "MyComponents\\Withdraw_DepositUI.aspx.cs",
               "ToolTip": "C:\\Users\\sshar238\\Desktop\\Assignment_5\\Online_ATM\\MyComponents\\Withdraw_DepositUI.aspx.cs",
               "RelativeToolTip": "MyComponents\\Withdraw_DepositUI.aspx.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAkwEsAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAwFgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-20T03:33:58.595Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 16,
+=======
+              "DocumentIndex": 1,
+              "Title": "withdrawDeposit.svc.cs",
+              "DocumentMoniker": "C:\\Users\\jbsam\\Desktop\\Online_ATM\\MyComponents\\withdrawDeposit.svc.cs",
+              "RelativeDocumentMoniker": "MyComponents\\withdrawDeposit.svc.cs",
+              "ToolTip": "C:\\Users\\jbsam\\Desktop\\Online_ATM\\MyComponents\\withdrawDeposit.svc.cs",
+              "RelativeToolTip": "MyComponents\\withdrawDeposit.svc.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACUAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T04:45:30.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateUserPage.aspx",
+              "DocumentMoniker": "C:\\Users\\jbsam\\Desktop\\Online_ATM\\MyComponents\\CreateUserPage.aspx",
+              "RelativeDocumentMoniker": "MyComponents\\CreateUserPage.aspx",
+              "ToolTip": "C:\\Users\\jbsam\\Desktop\\Online_ATM\\MyComponents\\CreateUserPage.aspx",
+              "RelativeToolTip": "MyComponents\\CreateUserPage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-20T05:55:01.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CreateUserPage.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\jbsam\\Desktop\\Online_ATM\\MyComponents\\CreateUserPage.aspx.cs",
+              "RelativeDocumentMoniker": "MyComponents\\CreateUserPage.aspx.cs",
+              "ToolTip": "C:\\Users\\jbsam\\Desktop\\Online_ATM\\MyComponents\\CreateUserPage.aspx.cs",
+              "RelativeToolTip": "MyComponents\\CreateUserPage.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T05:55:25.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateUserPage.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\jbsam\\Desktop\\Online_ATM\\MyComponents\\CreateUserPage.aspx.designer.cs",
+              "RelativeDocumentMoniker": "MyComponents\\CreateUserPage.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\jbsam\\Desktop\\Online_ATM\\MyComponents\\CreateUserPage.aspx.designer.cs",
+              "RelativeToolTip": "MyComponents\\CreateUserPage.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T05:55:26.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TransactionHistory.aspx",
+              "DocumentMoniker": "C:\\Users\\jbsam\\Desktop\\Online_ATM\\MyComponents\\TransactionHistory.aspx",
+              "RelativeDocumentMoniker": "MyComponents\\TransactionHistory.aspx",
+              "ToolTip": "C:\\Users\\jbsam\\Desktop\\Online_ATM\\MyComponents\\TransactionHistory.aspx",
+              "RelativeToolTip": "MyComponents\\TransactionHistory.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-20T05:08:22.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateUserControl.ascx.cs",
+              "DocumentMoniker": "C:\\Users\\jbsam\\Desktop\\Online_ATM\\MyComponents\\CreateUserControl.ascx.cs",
+              "RelativeDocumentMoniker": "MyComponents\\CreateUserControl.ascx.cs",
+              "ToolTip": "C:\\Users\\jbsam\\Desktop\\Online_ATM\\MyComponents\\CreateUserControl.ascx.cs",
+              "RelativeToolTip": "MyComponents\\CreateUserControl.ascx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T03:37:00.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CreateUserControl.ascx",
+              "DocumentMoniker": "C:\\Users\\jbsam\\Desktop\\Online_ATM\\MyComponents\\CreateUserControl.ascx",
+              "RelativeDocumentMoniker": "MyComponents\\CreateUserControl.ascx",
+              "ToolTip": "C:\\Users\\jbsam\\Desktop\\Online_ATM\\MyComponents\\CreateUserControl.ascx",
+              "RelativeToolTip": "MyComponents\\CreateUserControl.ascx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2025-04-20T03:40:47.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HomePage.aspx",
+              "DocumentMoniker": "C:\\Users\\jbsam\\Desktop\\Online_ATM\\MyComponents\\HomePage.aspx",
+              "RelativeDocumentMoniker": "MyComponents\\HomePage.aspx",
+              "ToolTip": "C:\\Users\\jbsam\\Desktop\\Online_ATM\\MyComponents\\HomePage.aspx",
+              "RelativeToolTip": "MyComponents\\HomePage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-20T05:08:29.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+>>>>>>> 0ee90e89504ba79db06996e86565d962f0b70536
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\sshar238\\Desktop\\Assignment_5\\Online_ATM\\MyComponents\\Web.config",
               "RelativeDocumentMoniker": "MyComponents\\Web.config",
@@ -311,7 +601,24 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 17,
+=======
+              "DocumentIndex": 19,
+              "Title": "DefaultPage.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\jbsam\\Desktop\\Online_ATM\\MyComponents\\DefaultPage.aspx.cs",
+              "RelativeDocumentMoniker": "MyComponents\\DefaultPage.aspx.cs",
+              "ToolTip": "C:\\Users\\jbsam\\Desktop\\Online_ATM\\MyComponents\\DefaultPage.aspx.cs",
+              "RelativeToolTip": "MyComponents\\DefaultPage.aspx.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T02:53:25.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+>>>>>>> 0ee90e89504ba79db06996e86565d962f0b70536
               "Title": "Service.svc",
               "DocumentMoniker": "C:\\Users\\sshar238\\Desktop\\Assignment_5\\Online_ATM\\MyComponents\\Service.svc",
               "RelativeDocumentMoniker": "MyComponents\\Service.svc",
@@ -321,6 +628,7 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003504|",
               "WhenOpened": "2025-04-20T02:02:06.339Z",
               "EditorCaption": ""
+<<<<<<< HEAD
             },
             {
               "$type": "Document",
@@ -334,6 +642,8 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-20T02:53:25.976Z",
               "EditorCaption": ""
+=======
+>>>>>>> 0ee90e89504ba79db06996e86565d962f0b70536
             }
           ]
         }
