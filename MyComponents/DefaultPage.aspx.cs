@@ -18,13 +18,5 @@ namespace MyComponents
         {
             Response.Redirect("LoginPage.aspx");
         }
-
-        protected void StemmingButton_Click(object sender, EventArgs e)
-        {
-            String inputText = StemmingInput.Text;
-            StemmingService.Service1Client service1Client = new StemmingService.Service1Client();
-            String result = service1Client.Stemming(inputText); // Use service reference to call Stemming()
-            StemmingResult.Text = result;   
-        }
     }
 }

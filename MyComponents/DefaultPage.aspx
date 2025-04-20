@@ -59,12 +59,6 @@
             <h2>Test User Login/Create User user controls & Cookies, by Xavier Flores</h2>
             <asp:Button ID="Button1" runat="server" Text="Click here" OnClick="Button1_Click" />
             
-            <h2>Test Stemming Service, by Xavier Flores</h2>
-            <asp:Label ID="StemmingLabel" runat="server" Text="Enter Words to be stemmed"></asp:Label>
-            <asp:TextBox ID="StemmingInput" runat="server"></asp:TextBox>
-            <br />
-            <asp:Button ID="StemmingButton" runat="server" Text="Click to Stem" OnClick="StemmingButton_Click" />
-            <asp:Label ID="StemmingResult" runat="server" Text="Result: enter words in the following format: word1 word2 ..."></asp:Label>
 
         </div>
     </form>
