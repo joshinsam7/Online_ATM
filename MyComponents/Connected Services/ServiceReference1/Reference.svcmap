@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="de0d5d13-205d-4585-ba10-ed318f1cfeb5" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://localhost:44311/showTransactions.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="showTransactions.xsd" MetadataType="Schema" ID="cec6f8cf-bb4b-402a-a587-13d6d1f0b212" SourceId="1" SourceUrl="https://localhost:44311/showTransactions.svc?xsd=xsd0" />
+    <MetadataFile FileName="showTransactions.wsdl" MetadataType="Wsdl" ID="7fb1290f-d95e-415f-b142-e874ccfefcbb" SourceId="1" SourceUrl="https://localhost:44311/showTransactions.svc?wsdl" />
+    <MetadataFile FileName="showTransactions.disco" MetadataType="Disco" ID="5b361810-edd7-4829-8b69-a43663c34ad6" SourceId="1" SourceUrl="https://localhost:44311/showTransactions.svc?disco" />
+    <MetadataFile FileName="showTransactions1.xsd" MetadataType="Schema" ID="694440a1-fc67-4b30-8418-776ca532ff88" SourceId="1" SourceUrl="https://localhost:44311/showTransactions.svc?xsd=xsd2" />
+    <MetadataFile FileName="showTransactions2.xsd" MetadataType="Schema" ID="d4919dea-0640-4ef8-b669-30fdeef691ee" SourceId="1" SourceUrl="https://localhost:44311/showTransactions.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

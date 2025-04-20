@@ -44,4 +44,8 @@
     <Username>jj</Username>
     <Password>jj</Password>
   </User>
+  <User>
+    <Username>Raskolnikov</Username>
+    <Password>Rodion</Password>
+  </User>
 </Users>

@@ -70,6 +70,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Connected Services\ServiceReference1\MyComponents.ServiceReference1.Transaction.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Connected Services\ServiceReference1\showTransactions.wsdl" />
+    <None Include="Connected Services\ServiceReference1\showTransactions.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ServiceReference1\showTransactions1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ServiceReference1\showTransactions2.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Connected Services\wdService\withdrawDeposit.disco" />
     <None Include="Connected Services\wdService\configuration91.svcinfo" />
     <None Include="Connected Services\wdService\configuration.svcinfo" />
@@ -77,6 +90,14 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+    <None Include="Connected Services\ServiceReference1\showTransactions.disco" />
+    <None Include="Connected Services\ServiceReference1\configuration91.svcinfo" />
+    <None Include="Connected Services\ServiceReference1\configuration.svcinfo" />
+    <None Include="Connected Services\ServiceReference1\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="showTransactions.svc" />
     <Content Include="TransactionHistory.aspx" />
     <Content Include="withdrawDeposit.svc" />
     <Content Include="Withdraw_DepositUI.aspx" />
@@ -98,6 +119,11 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Connected Services\ServiceReference1\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="Connected Services\StemmingService\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -136,6 +162,7 @@
     <Compile Include="HomePage.aspx.designer.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
     </Compile>
+    <Compile Include="IshowTransactions.cs" />
     <Compile Include="IUserInfoStorage.cs" />
     <Compile Include="IwithdrawDeposit.cs" />
     <Compile Include="LoginPage.aspx.cs">
@@ -156,6 +183,9 @@
       <DependentUpon>LoginControl.ascx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="showTransactions.svc.cs">
+      <DependentUpon>showTransactions.svc</DependentUpon>
+    </Compile>
     <Compile Include="TransactionHistory.aspx.cs">
       <DependentUpon>TransactionHistory.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -201,6 +231,7 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\ServiceReference1\" />
     <WCFMetadataStorage Include="Connected Services\StemmingService\" />
     <WCFMetadataStorage Include="Connected Services\wdService\" />
   </ItemGroup>
