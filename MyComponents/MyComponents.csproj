@@ -182,13 +182,13 @@
     <None Include="Connected Services\StemmingService\Service11.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\wdService\withdrawDeposit.wsdl" />
     <None Include="Connected Services\wdService\withdrawDeposit.xsd">
       <SubType>Designer</SubType>
     </None>
     <None Include="Connected Services\wdService\withdrawDeposit1.xsd">
       <SubType>Designer</SubType>
     </None>
+    <None Include="Connected Services\wdService\WithdrawDepositService.wsdl" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
