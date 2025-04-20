@@ -54,7 +54,7 @@ namespace MyComponents
             }
 
             wdService.IwithdrawDepositClient prxy = new wdService.IwithdrawDepositClient();
-            Boolean check = prxy.withdraw(val, username);
+            Boolean check = prxy.withdraw(val, username); 
 
             if (check)
             {
@@ -111,6 +111,11 @@ namespace MyComponents
         protected void btnWCustom_Click(object sender, EventArgs e)
         {
 
+        }
+
+        protected void btnBack_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Homepage.aspx");
         }
     }
 }

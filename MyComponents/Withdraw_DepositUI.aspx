@@ -26,7 +26,11 @@
                                 <asp:Button ID="btn50" runat="server" Text="$50" OnClick="Withdraw_Click" CommandArgument="50" />
                                 <asp:Button ID="btn100" runat="server" Text="$100" OnClick="Withdraw_Click" CommandArgument="100" />
                                 <asp:Button ID="btnCustom" runat="server" Text="Custom Amount" OnClick="btnWCustom_Click" />
-
+                                
+                                <div id="inputCustom">
+                                     <asp:Label ID="Label5" runat="server" Text="Enter Amount: " />
+                                        <asp:TextBox ID="txtCustom" runat="server" />
+                                </div>
     	                </div>
 	                </asp:Panel>
 
@@ -40,7 +44,11 @@
                                 <asp:Button ID="Button2" runat="server" Text="$50" OnClick="deposit_Click" CommandArgument="50" />
                                 <asp:Button ID="Button3" runat="server" Text="$100" OnClick="deposit_Click" CommandArgument="100" />
                                 <asp:Button ID="Button4" runat="server" Text="Custom Amount" OnClick="btnDCustom_Click" />
-
+                                
+                                <div id="inputCustom">
+                                        <asp:Label ID="Label6" runat="server" Text="Enter Amount: " />
+                                        <asp:TextBox ID="TextBox1" runat="server" />
+                                </div>
     	                </div>
 	                </asp:Panel>
                 </asp:Panel>
@@ -54,6 +62,10 @@
             <asp:Button ID="depositButton" runat="server" Text="" OnClick="depositButton_Click" /> 
             <asp:Label ID="Label3" runat="server" Text="   Deposit    "></asp:Label>
           </div>
+
+        <br /><br />
+            <br /><br />
+            <asp:Button ID="btnBack" runat="server" Text="Back to Home Page" OnClick="btnBack_Click" />
     </form>
 </body>
 </html>

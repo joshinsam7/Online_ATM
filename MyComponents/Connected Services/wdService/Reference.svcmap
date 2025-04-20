@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="c66fc9be-31a4-46a5-a02e-033c5b692cf2" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="28bbb72b-53e2-469b-956f-9ee96bbaafa1" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -22,10 +22,10 @@
     <MetadataSource Address="https://localhost:44311/withdrawDeposit.svc" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="withdrawDeposit.disco" MetadataType="Disco" ID="11be1aed-4175-41dd-ba38-eb2590c0b150" SourceId="1" SourceUrl="https://localhost:44311/withdrawDeposit.svc?disco" />
-    <MetadataFile FileName="withdrawDeposit.xsd" MetadataType="Schema" ID="62aaea2c-55ac-44b9-a69f-bc5e77e55ec5" SourceId="1" SourceUrl="https://localhost:44311/withdrawDeposit.svc?xsd=xsd1" />
-    <MetadataFile FileName="withdrawDeposit.wsdl" MetadataType="Wsdl" ID="cbfde9a0-214b-4f4e-b5f4-c9b0cec14524" SourceId="1" SourceUrl="https://localhost:44311/withdrawDeposit.svc?wsdl" />
-    <MetadataFile FileName="withdrawDeposit1.xsd" MetadataType="Schema" ID="0ce767ed-dff4-492a-a989-5337d3f0988b" SourceId="1" SourceUrl="https://localhost:44311/withdrawDeposit.svc?xsd=xsd0" />
+    <MetadataFile FileName="withdrawDeposit.disco" MetadataType="Disco" ID="bed2732f-9340-4d3c-b651-e6ef22116be1" SourceId="1" SourceUrl="https://localhost:44311/withdrawDeposit.svc?disco" />
+    <MetadataFile FileName="withdrawDeposit.xsd" MetadataType="Schema" ID="f8156558-0790-4c64-b37b-01800940236e" SourceId="1" SourceUrl="https://localhost:44311/withdrawDeposit.svc?xsd=xsd1" />
+    <MetadataFile FileName="WithdrawDepositService.wsdl" MetadataType="Wsdl" ID="795d635e-2da5-409f-9b21-c1006f895b37" SourceId="1" SourceUrl="https://localhost:44311/withdrawDeposit.svc?wsdl" />
+    <MetadataFile FileName="withdrawDeposit1.xsd" MetadataType="Schema" ID="6e998070-2179-4130-a3e4-da39d24b35f6" SourceId="1" SourceUrl="https://localhost:44311/withdrawDeposit.svc?xsd=xsd0" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
