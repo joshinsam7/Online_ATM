@@ -9,10 +9,10 @@ namespace MyComponents
 {
     public partial class HomePage : System.Web.UI.Page
     {
+        string username = null;
         protected void Page_Load(object sender, EventArgs e)
         {
             // use session or cookie info to find users name
-            string username = null;
             // try  session
             if (Session["Username"] != null)
             {
@@ -40,6 +40,16 @@ namespace MyComponents
                 System.Diagnostics.Debug.WriteLine("session info not found");
             }
 
+        }
+
+        protected void transactionistoryButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("TransactionHistory.aspx?username=" + HttpUtility.UrlEncode(username));
+        }
+
+        protected void atmButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Withdraw_DepositUI.aspx?username=" + HttpUtility.UrlEncode(username));
         }
     }
 }

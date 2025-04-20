@@ -57,7 +57,7 @@ namespace MyComponents
                 // set cookie
                 HttpCookie userCookie = new HttpCookie("UserProfile");
                 userCookie["Username"] = username;
-                userCookie.Expires = DateTime.Now.AddMinutes(1);
+                userCookie.Expires = DateTime.Now.AddMinutes(30);
                 Response.Cookies.Add(userCookie);
 
                 Response.Redirect("HomePage.aspx");

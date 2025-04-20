@@ -40,4 +40,8 @@
     <Username>new3</Username>
     <Password>new3</Password>
   </User>
+  <User>
+    <Username>jj</Username>
+    <Password>jj</Password>
+  </User>
 </Users>
