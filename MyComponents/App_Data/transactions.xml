@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Transactions>
+  <Transactions>
+    <Type>Deposit</Type>
+    <Value>0</Value>
+    <TotalAmount>100</TotalAmount>
+    <User>jj</User>
+  </Transactions>
+</Transactions>
