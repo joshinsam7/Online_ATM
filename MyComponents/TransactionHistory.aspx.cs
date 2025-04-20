@@ -25,9 +25,11 @@ namespace MyComponents
             // Fetch transaction history
             List<ServiceReference1.Transaction> transactions = prxy.GetTransactionHistory().ToList();
 
+
             // Check if transactions are available
             if (transactions != null && transactions.Count > 0)
             {
+                Console.WriteLine("Entered"); 
                 // Bind the transaction history to the GridView
                 GridViewTransactions.DataSource = transactions;
                 GridViewTransactions.DataBind();

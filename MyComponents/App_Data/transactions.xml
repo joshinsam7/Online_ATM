@@ -60,4 +60,46 @@
     <TotalAmount>320</TotalAmount>
     <User>jj</User>
   </Transaction>
+  <Transaction>
+    <Type>Deposit</Type>
+    <Value>50</Value>
+    <TotalAmount>370</TotalAmount>
+    <User>jj</User>
+  </Transaction>
+  <Transaction>
+    <Type>Deposit</Type>
+    <Value>100</Value>
+    <TotalAmount>470</TotalAmount>
+    <User>jj</User>
+  </Transaction>
+  <Transaction>
+    <Type>Deposit</Type>
+    <Value>20</Value>
+    <TotalAmount>490</TotalAmount>
+    <User>jj</User>
+  </Transaction>
+  <Transaction>
+    <Type>Deposit</Type>
+    <Value>50</Value>
+    <TotalAmount>540</TotalAmount>
+    <User>jj</User>
+  </Transaction>
+  <Transaction>
+    <Type>Withdraw</Type>
+    <Value>100</Value>
+    <TotalAmount>440</TotalAmount>
+    <User>jj</User>
+  </Transaction>
+  <Transaction>
+    <Type>Withdraw</Type>
+    <Value>50</Value>
+    <TotalAmount>390</TotalAmount>
+    <User>jj</User>
+  </Transaction>
+  <Transaction>
+    <Type>Withdraw</Type>
+    <Value>50</Value>
+    <TotalAmount>340</TotalAmount>
+    <User>jj</User>
+  </Transaction>
 </Transactions>
