@@ -27,10 +27,11 @@
                                 <asp:Button ID="btn100" runat="server" Text="$100" OnClick="Withdraw_Click" CommandArgument="100" />
                                 <asp:Button ID="btnCustom" runat="server" Text="Custom Amount" OnClick="btnWCustom_Click" />
                                 
-                                <div id="inputCustom">
+                                 <asp:Panel ID="inputCustomW" runat="server">
                                      <asp:Label ID="Label5" runat="server" Text="Enter Amount: " />
-                                        <asp:TextBox ID="txtCustom" runat="server" />
-                                </div>
+                                        <asp:TextBox ID="txtCustomW" runat="server" />
+                                    <asp:Button ID="submitCustomTransaction" runat="server" Text=" Submit" OnClick="submitCustomTransactionWithdraw_Click" />
+                                 </asp:Panel>
     	                </div>
 	                </asp:Panel>
 
@@ -45,10 +46,11 @@
                                 <asp:Button ID="Button3" runat="server" Text="$100" OnClick="deposit_Click" CommandArgument="100" />
                                 <asp:Button ID="Button4" runat="server" Text="Custom Amount" OnClick="btnDCustom_Click" />
                                 
-                                <div id="inputCustom">
-                                        <asp:Label ID="Label6" runat="server" Text="Enter Amount: " />
+                                 <asp:Panel ID="inputCustomD" runat="server">
+                                     <asp:Label ID="Label6" runat="server" Text="Enter Amount: " />
                                         <asp:TextBox ID="TextBox1" runat="server" />
-                                </div>
+                                    <asp:Button ID="Button5" runat="server" Text=" Submit" OnClick="submitCustomTransactionDeposit_Click" />
+                                 </asp:Panel>
     	                </div>
 	                </asp:Panel>
                 </asp:Panel>
