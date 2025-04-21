@@ -56,7 +56,7 @@
                     </tr>
                     <tr>
                         <td style="word-wrap: break-word; white-space: normal; width: 300px;">Joshin Sam</td>
-                        <td style="word-wrap: break-word; white-space: normal; width: 300px;">wdService</td>
+                        <td style="word-wrap: break-word; white-space: normal; width: 300px;">wdService / withdrawDeposit.svc</td>
                         <td style="word-wrap: break-word; white-space: normal; width: 300px;">The service deposites and or withdraw money from the users account. </td>
                         <td style="word-wrap: break-word; white-space: normal; width: 300px;">In the WSDL withdrawDeposite.svc , IwithdrawDeposit provides the logic for withdrawing and depositing money and adding it into the XML database under the users account. This service is used in the Withdraw_DepositUI.aspx, and can be accessed in the Default.aspax.</td>
                     </tr>
@@ -83,17 +83,47 @@
                     <tr>
                         <td style="word-wrap: break-word; white-space: normal; width: 300px;">Samay Sharma</td>
                         <td style="word-wrap: break-word; white-space: normal; width: 300px;">TransactionHistory.aspx</td>
-                        <td style="word-wrap: break-word; white-space: normal; width: 300px;">Provides user with a UI to view their transaction history.</td>
-                        <td style="word-wrap: break-word; white-space: normal; width: 300px;">TransactionHistory.aspx.cs provides the logic for displaying the transaction history. The XML file is read and the transactions are displayed in a table format.</td>
+                        <td style="word-wrap: break-word; white-space: normal; width: 300px;">Provides user with a UI to view which type of ecryption the user would like to visualize.</td>
+                        <td style="word-wrap: break-word; white-space: normal; width: 300px;">TransactionHistory.aspx.cs provides the logic for displaying the transaction history.</td>
                     </tr>
+
+                    <tr>
+                        <td style="word-wrap: break-word; white-space: normal; width: 300px;">Samay Sharma</td>
+                        <td style="word-wrap: break-word; white-space: normal; width: 300px;">DLL / </td>
+                        <td style="word-wrap: break-word; white-space: normal; width: 300px;">This class is implemented as a WCF service and is used to encrypt username/password and its transaction details.  </td>
+                        <td style="word-wrap: break-word; white-space: normal; width: 300px;"></td>
+                    </tr>
+
+                    <tr>
+                        <td style="word-wrap: break-word; white-space: normal; width: 300px;">Samay Sharma</td>
+                        <td style="word-wrap: break-word; white-space: normal; width: 300px;">ServiceReference1</td>
+                        <td style="word-wrap: break-word; white-space: normal; width: 300px;">This is the service implemented to list all the transactions of the user from the xml database.  </td>
+                        <td style="word-wrap: break-word; white-space: normal; width: 300px;">It is located in IshowTransactins.cs, showTransactions.svc, and contains the logic to output the list of transactions from the xml file.This functions are used in the TransactionsHistory.aspx.cs</td>
+                    </tr>
+
+                     <tr>
+                        <td style="word-wrap: break-word; white-space: normal; width: 300px;">Samay Sharma</td>
+                        <td style="word-wrap: break-word; white-space: normal; width: 300px;">TransactionEcrypt/Decrypt.aspx</td>
+                        <td style="word-wrap: break-word; white-space: normal; width: 300px;">  </td>
+                        <td style="word-wrap: break-word; white-space: normal; width: 300px;"></td>
+                    </tr>
+
+
                     </table>
             </div>
+
             <h2>Test User Login/Create User user controls & Cookies, by Xavier Flores</h2>
             <asp:Button ID="Button1" runat="server" Text="Click here" OnClick="Button1_Click" />
             
 
-            <h3>Text Depositing and Withdrawing User Control, Global.asax by Joshin Sam</h3>
-             <asp:Button ID="Button2" runat="server" Text="Click here" OnClick="Button2_Click" />
+            <h3>Test Depositing and Withdrawing User Control, Global.asax by Joshin Sam</h3>
+            <p>This function requires user to login in at least once so that it is saved as a cookie to bypass the login page</p>
+            <asp:Button ID="Button2" runat="server" Text="Click here" OnClick="Button2_Click" />
+
+
+            <h3>Test DLL, TransactionHistory User Control by Samay Sharma</h3>
+            <p>This function requires user to login in at least once so that it is saved as a cookie to bypass the login page, and needs to have atleast one transaction to list any details under the user account. </p>
+            <asp:Button ID="Button3" runat="server" Text="Click here" OnClick="Button3_Click" />
         </div>
     </form>
 </body>

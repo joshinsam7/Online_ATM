@@ -96,6 +96,15 @@ namespace MyComponents
         protected global::System.Web.UI.WebControls.Button btnCustom;
 
         /// <summary>
+        /// inputCustomW control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel inputCustomW;
+
+        /// <summary>
         /// Label5 control.
         /// </summary>
         /// <remarks>
@@ -105,13 +114,22 @@ namespace MyComponents
         protected global::System.Web.UI.WebControls.Label Label5;
 
         /// <summary>
-        /// txtCustom control.
+        /// txtCustomW control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtCustom;
+        protected global::System.Web.UI.WebControls.TextBox txtCustomW;
+
+        /// <summary>
+        /// submitCustomTransaction control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button submitCustomTransaction;
 
         /// <summary>
         /// pnlDeposit control.
@@ -168,6 +186,15 @@ namespace MyComponents
         protected global::System.Web.UI.WebControls.Button Button4;
 
         /// <summary>
+        /// inputCustomD control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel inputCustomD;
+
+        /// <summary>
         /// Label6 control.
         /// </summary>
         /// <remarks>
@@ -184,6 +211,15 @@ namespace MyComponents
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox1;
+
+        /// <summary>
+        /// Button5 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button5;
 
         /// <summary>
         /// withdrawButton control.
