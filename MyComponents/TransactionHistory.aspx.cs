@@ -8,37 +8,96 @@ namespace MyComponents
 {
     public partial class TransactionHistory : Page
     {
+        private readonly encryptdecrypt _encryptionService = new encryptdecrypt(); // Instance of encryptdecrypt class
+        private List<ServiceReference1.Transaction> _transactions;
+
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
             {
-                LoadTransactionHistory();
+                LoadTransactionHistory(encrypt:true);
             }
         }
 
-        private void LoadTransactionHistory()
+        private void LoadTransactionHistory(bool encrypt)
         {
-
             // Create a proxy to consume the WCF service
             ServiceReference1.IshowTransactionsClient prxy = new ServiceReference1.IshowTransactionsClient();
 
             // Fetch transaction history
-            List<ServiceReference1.Transaction> transactions = prxy.GetTransactionHistory().ToList();
+            _transactions = prxy.GetTransactionHistory().ToList();
 
-
-            // Check if transactions are available
-            if (transactions != null && transactions.Count > 0)
+            if (_transactions != null && _transactions.Count > 0)
             {
-                Console.WriteLine("Entered"); 
+                // Encrypt or decrypt based on the parameter
+                foreach (var transaction in _transactions)
+                {
+                    if (encrypt)
+                    {
+                        transaction.Type = _encryptionService.encrypt(transaction.Type);
+                        transaction.Value = _encryptionService.encrypt(transaction.Value);
+                        transaction.TotalAmount = _encryptionService.encrypt(transaction.TotalAmount);
+                        transaction.User = _encryptionService.encrypt(transaction.User);
+                    }
+                    else
+                    {
+                        try
+                        {
+                            transaction.Type = _encryptionService.decrypt(transaction.Type);
+                        }
+                        catch
+                        {
+                            transaction.Type = "Could not be decrypted";
+                        }
+
+                        try
+                        {
+                            transaction.Value = _encryptionService.decrypt(transaction.Value);
+                        }
+                        catch
+                        {
+                            transaction.Value = "Could not be decrypted";
+                        }
+
+                        try
+                        {
+                            transaction.TotalAmount = _encryptionService.decrypt(transaction.TotalAmount);
+                        }
+                        catch
+                        {
+                            transaction.TotalAmount = "Could not be decrypted";
+                        }
+
+                        try
+                        {
+                            transaction.User = _encryptionService.decrypt(transaction.User);
+                        }
+                        catch
+                        {
+                            transaction.User = "Could not be decrypted";
+                        }
+                    }
+                }
+
                 // Bind the transaction history to the GridView
-                GridViewTransactions.DataSource = transactions;
+                GridViewTransactions.DataSource = _transactions;
                 GridViewTransactions.DataBind();
             }
             else
             {
-                // Handle the case where no transactions are found
                 System.Diagnostics.Debug.WriteLine("No transactions found.");
             }
         }
+        protected void btnEncrypt_Click(object sender, EventArgs e)
+        {
+            LoadTransactionHistory(encrypt: true); // Show encrypted data
+        }
+
+        protected void btnDecrypt_Click(object sender, EventArgs e)
+        {
+            LoadTransactionHistory(encrypt: false); // Show decrypted data
+        }
+
+
     }
 }
