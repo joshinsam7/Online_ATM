@@ -45,6 +45,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PresentationFramework" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.ServiceModel" />
     <Reference Include="System.Web.DynamicData" />
@@ -97,6 +98,7 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+    <Content Include="encryptdecrypt.svc" />
     <Content Include="showTransactions.svc" />
     <Content Include="TransactionHistory.aspx" />
     <Content Include="withdrawDeposit.svc" />
@@ -155,6 +157,9 @@
     <Compile Include="DefaultPage.aspx.designer.cs">
       <DependentUpon>DefaultPage.aspx</DependentUpon>
     </Compile>
+    <Compile Include="encryptdecrypt.svc.cs">
+      <DependentUpon>encryptdecrypt.svc</DependentUpon>
+    </Compile>
     <Compile Include="HomePage.aspx.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -162,6 +167,7 @@
     <Compile Include="HomePage.aspx.designer.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Iencryptdecrypt.cs" />
     <Compile Include="IshowTransactions.cs" />
     <Compile Include="IUserInfoStorage.cs" />
     <Compile Include="IwithdrawDeposit.cs" />

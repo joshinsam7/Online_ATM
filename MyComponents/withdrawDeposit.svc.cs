@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
+using System.Windows.Documents;
 using System.Xml.Linq;
 using System.Xml.XPath;
 
@@ -15,7 +16,7 @@ namespace MyComponents
     public class WithdrawDepositService : IwithdrawDeposit
     {
         private static string xmlPath = System.Web.HttpContext.Current.Server.MapPath("~/App_Data/transactions.xml");
-
+        private readonly encryptdecrypt _encryptionService = new encryptdecrypt(); // Instance of encryptdecrypt class
         public bool deposit(int value, string user)
         {
             int totAmount = 0;
@@ -26,7 +27,7 @@ namespace MyComponents
                 doc = XDocument.Load(xmlPath);
                 var lastAmountElement = doc.Root?.Elements("Transaction").LastOrDefault()?.Element("TotalAmount");
 
-                totAmount = lastAmountElement != null ? (int)lastAmountElement : 0;
+                totAmount = lastAmountElement != null && int.TryParse(lastAmountElement.Value, out int parsedAmount) ? parsedAmount : 0;
                 totAmount += value;
             }
             else
@@ -57,16 +58,56 @@ namespace MyComponents
 
         private bool add_transaction(XDocument doc, int amount, string type, string user, int value)
         {
+            // Encrypt sensitive data
+            string encryptedType = _encryptionService.encrypt(type);
+            string encryptedValue = _encryptionService.encrypt(value.ToString());
+            string encryptedTotalAmount = _encryptionService.encrypt(amount.ToString());
+            string encryptedUser = _encryptionService.encrypt(user);
+
+            foreach (XElement existingTransaction in doc.Root.Elements("Transaction")) // Renamed variable
+            {
+                if (string.IsNullOrEmpty(existingTransaction.Element("Type")?.Value) || !IsBase64(existingTransaction.Element("Type").Value))
+                {
+                    existingTransaction.Element("Type").Value = _encryptionService.encrypt(existingTransaction.Element("Type").Value);
+                }
+                if (string.IsNullOrEmpty(existingTransaction.Element("Value")?.Value) || !IsBase64(existingTransaction.Element("Value").Value))
+                {
+                    existingTransaction.Element("Value").Value = _encryptionService.encrypt(existingTransaction.Element("Value").Value);
+                }
+                if (string.IsNullOrEmpty(existingTransaction.Element("TotalAmount")?.Value) || !IsBase64(existingTransaction.Element("TotalAmount").Value))
+                {
+                    existingTransaction.Element("TotalAmount").Value = _encryptionService.encrypt(existingTransaction.Element("TotalAmount").Value);
+                }
+                if (string.IsNullOrEmpty(existingTransaction.Element("User")?.Value) || !IsBase64(existingTransaction.Element("User").Value))
+                {
+                    existingTransaction.Element("User").Value = _encryptionService.encrypt(existingTransaction.Element("User").Value);
+                }
+            }
+
+            // Create the transaction element with encrypted data
             XElement transaction = new XElement("Transaction",
-                new XElement("Type", type),
-                new XElement("Value", value),
-                new XElement("TotalAmount", amount),
-                new XElement("User", user));
+                new XElement("Type", encryptedType),
+                new XElement("Value", encryptedValue),
+                new XElement("TotalAmount", encryptedTotalAmount),
+                new XElement("User", encryptedUser));
 
             doc.Root.Add(transaction);
             doc.Save(xmlPath);
 
             return true;
+        }
+
+        private bool IsBase64(string input)
+        {
+            try
+            {
+                Convert.FromBase64String(input);
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
         }
 
     }
